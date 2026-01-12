@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+from scapy.all import sniff, IP, TCP, UDP, ICMP
+from datetime import datetime, timedelta
+from collections import defaultdict, Counter
+import json
+import sys
+
+class PortScanDetector:
+    def __init__(self, time_window=60, port_threshold=5):
+        self.time_window = time_window
+        self.port_threshold = port_threshold
+        self.connection_attempts = defaultdict(dict)
+        self.detected_scans = []
+    
+    def track_connection(self, src_ip, dst_port, timestamp):
+        self.connection_attempts[src_ip][dst_port] = timestamp
+        self._cleanup_old_attempts(src_ip, timestamp)
+        port_count = len(self.connection_attempts[src_ip])
+        if port_count >= self.port_threshold:
+            return self._record_scan(src_ip, port_count, timestamp)
+        return False
+    
+    def _cleanup_old_attempts(self, src_ip, current_time):
+        cutoff_time = current_time - timedelta(seconds=self.time_window)
+        ports_to_remove = [port for port, timestamp in self.connection_attempts[src_ip].items() if timestamp < cutoff_time]
+        for port in ports_to_remove:
+            del self.connection_attempts[src_ip][port]
+    
+    def _record_scan(self, src_ip, port_count, timestamp):
+        recent_cutoff = timestamp - timedelta(seconds=self.time_window)
+        for scan in self.detected_scans:
+            if scan["source_ip"] == src_ip and scan["timestamp"] > recent_cutoff:
+                return False
+        scan_info = {"source_ip": src_ip, "timestamp": timestamp, "ports_scanned": port_count, "time_window": self.time_window, "ports": list(self.connection_attempts[src_ip].keys())}
+        self.detected_scans.append(scan_info)
+        return True
+
+class TrafficAnalyzer:
+    def __init__(self, baseline_window=300, anomaly_threshold=2.5):
+        self.baseline_window = baseline_window
+        self.anomaly_threshold = anomaly_threshold
+        self.traffic_history = []
+        self.protocol_baseline = Counter()
+        self.port_baseline = Counter()
+        self.packet_rate_history = []
+        self.baseline_established = False
+        self.baseline_start = datetime.now()
+    
+    def update_baseline(self, packet_info):
+        current_time = datetime.now()
+        self.traffic_history.append({"timestamp": current_time, "info": packet_info})
+        cutoff = current_time - timedelta(seconds=self.baseline_window)
+        self.traffic_history = [t for t in self.traffic_history if t["timestamp"] > cutoff]
+        
+        if packet_info.get("protocol_name"):
+            self.protocol_baseline[packet_info["protocol_name"]] += 1
+        
+        if packet_info.get("dst_port"):
+            self.port_baseline[packet_info["dst_port"]] += 1
+        
+        if (current_time - self.baseline_start).total_seconds() >= 60:
+            self.baseline_established = True
+    
+    def calculate_packet_rate(self):
+        if len(self.traffic_history) < 2:
+            return 0
+        time_span = (self.traffic_history[-1]["timestamp"] - self.traffic_history[0]["timestamp"]).total_seconds()
+        if time_span == 0:
+            return 0
+        return len(self.traffic_history) / time_span
+    
+    def detect_anomalies(self, packet_info):
+        if not self.baseline_established:
+            return []
+        
+        anomalies = []
+        current_rate = self.calculate_packet_rate()
+        
+        if len(self.packet_rate_history) > 0:
+            avg_rate = sum(self.packet_rate_history) / len(self.packet_rate_history)
+            if current_rate > avg_rate * self.anomaly_threshold and avg_rate > 0:
+                anomalies.append({"type": "traffic_spike", "current_rate": round(current_rate, 2), "avg_rate": round(avg_rate, 2), "increase": round(current_rate / avg_rate, 2)})
+        
+        self.packet_rate_history.append(current_rate)
+        if len(self.packet_rate_history) > 100:
+            self.packet_rate_history.pop(0)
+        
+        protocol = packet_info.get("protocol_name")
+        if protocol and protocol not in ["TCP", "UDP", "ICMP"]:
+            if self.protocol_baseline[protocol] < 5:
+                anomalies.append({"type": "unusual_protocol", "protocol": protocol})
+        
+        dst_port = packet_info.get("dst_port")
+        if dst_port:
+            common_ports = {80, 443, 22, 53, 25, 21, 3389, 3306, 5432}
+            if dst_port not in common_ports and self.port_baseline[dst_port] < 3:
+                anomalies.append({"type": "unusual_port", "port": dst_port, "ip": packet_info.get("dst_ip")})
+        
+        return anomalies
+
+class NetworkMonitor:
+    def __init__(self, interface=None):
+        self.interface = interface
+        self.packet_count = 0
+        self.packets_data = []
+        self.scan_detector = PortScanDetector(time_window=60, port_threshold=20)
+        self.traffic_analyzer = TrafficAnalyzer(baseline_window=300, anomaly_threshold=2.5)
+        self.stats = {"tcp_count": 0, "udp_count": 0, "icmp_count": 0, "scans_detected": 0, "anomalies_detected": 0}
+    
+    def parse_packet(self, packet):
+        packet_info = {"timestamp": datetime.now(), "number": self.packet_count}
+        if IP in packet:
+            packet_info["src_ip"] = packet[IP].src
+            packet_info["dst_ip"] = packet[IP].dst
+            packet_info["protocol"] = packet[IP].proto
+            packet_info["length"] = len(packet)
+            
+            if TCP in packet:
+                packet_info["protocol_name"] = "TCP"
+                packet_info["src_port"] = packet[TCP].sport
+                packet_info["dst_port"] = packet[TCP].dport
+                packet_info["flags"] = str(packet[TCP].flags)
+                self.stats["tcp_count"] += 1
+                
+                if "S" in packet_info["flags"] and "A" not in packet_info["flags"]:
+                    scan_detected = self.scan_detector.track_connection(packet_info["src_ip"], packet_info["dst_port"], packet_info["timestamp"])
+                    if scan_detected:
+                        self._alert_scan(packet_info["src_ip"])
+                
+                common_ports = {80: "HTTP", 443: "HTTPS", 22: "SSH", 21: "FTP", 25: "SMTP", 53: "DNS", 3389: "RDP", 3306: "MySQL", 5432: "PostgreSQL"}
+                if packet[TCP].dport in common_ports:
+                    packet_info["service"] = common_ports[packet[TCP].dport]
+            
+            elif UDP in packet:
+                packet_info["protocol_name"] = "UDP"
+                packet_info["src_port"] = packet[UDP].sport
+                packet_info["dst_port"] = packet[UDP].dport
+                self.stats["udp_count"] += 1
+                if packet[UDP].dport == 53 or packet[UDP].sport == 53:
+                    packet_info["service"] = "DNS"
+            
+            elif ICMP in packet:
+                packet_info["protocol_name"] = "ICMP"
+                packet_info["icmp_type"] = packet[ICMP].type
+                packet_info["service"] = "ICMP"
+                self.stats["icmp_count"] += 1
+        
+        return packet_info
+    
+    def _alert_scan(self, src_ip):
+        self.stats["scans_detected"] += 1
+        print("\n" + "=" * 70)
+        print("PORT SCAN DETECTED!")
+        print("=" * 70)
+        print(f"Source IP: {src_ip}")
+        print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        scan_info = self.scan_detector.detected_scans[-1]
+        print(f"Ports attempted: {scan_info['ports_scanned']}")
+        print(f"Time window: {scan_info['time_window']} seconds")
+        print(f"Port samples: {scan_info['ports'][:10]}...")
+        print("=" * 70 + "\n")
+        self._save_alert("port_scan", scan_info)
+    
+    def _alert_anomaly(self, anomalies):
+        for anomaly in anomalies:
+            self.stats["anomalies_detected"] += 1
+            print("\n" + "-" * 70)
+            print("TRAFFIC ANOMALY DETECTED!")
+            print("-" * 70)
+            
+            if anomaly["type"] == "traffic_spike":
+                print(f"Type: Traffic Spike")
+                print(f"Current rate: {anomaly['current_rate']} packets/sec")
+                print(f"Average rate: {anomaly['avg_rate']} packets/sec")
+                print(f"Increase: {anomaly['increase']}x normal")
+            
+            elif anomaly["type"] == "unusual_protocol":
+                print(f"Type: Unusual Protocol")
+                print(f"Protocol: {anomaly['protocol']}")
+            
+            elif anomaly["type"] == "unusual_port":
+                print(f"Type: Unusual Port Access")
+                print(f"Port: {anomaly['port']}")
+                print(f"Destination IP: {anomaly['ip']}")
+            
+            print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            print("-" * 70 + "\n")
+            self._save_alert("anomaly", anomaly)
+    
+    def _save_alert(self, alert_type, info):
+        try:
+            filename = f"{alert_type}_alerts.json"
+            alert = {"timestamp": datetime.now().isoformat(), "type": alert_type, "info": info if isinstance(info, dict) else str(info)}
+            
+            try:
+                with open(filename, "r") as f:
+                    alerts = json.load(f)
+            except FileNotFoundError:
+                alerts = []
+            
+            alerts.append(alert)
+            with open(filename, "w") as f:
+                json.dump(alerts, f, indent=2)
+        except Exception as e:
+            print(f"Error saving alert: {e}")
+    
+    def packet_callback(self, packet):
+        self.packet_count += 1
+        packet_info = self.parse_packet(packet)
+        
+        if "src_ip" in packet_info:
+            protocol = packet_info.get("protocol_name", "Unknown")
+            src = packet_info.get("src_ip", "N/A")
+            dst = packet_info.get("dst_ip", "N/A")
+            service = packet_info.get("service", "")
+            print(f"[{self.packet_count:6}] {protocol:6} {src:15} -> {dst:15} {service}")
+            
+            self.traffic_analyzer.update_baseline(packet_info)
+            anomalies = self.traffic_analyzer.detect_anomalies(packet_info)
+            if anomalies:
+                self._alert_anomaly(anomalies)
+        
+        self.packets_data.append(packet_info)
+        if self.packet_count % 50 == 0:
+            self._print_stats()
+    
+    def _print_stats(self):
+        print("\n" + "-" * 70)
+        print(f"Packets captured: {self.packet_count}")
+        print(f"TCP: {self.stats['tcp_count']} | UDP: {self.stats['udp_count']} | ICMP: {self.stats['icmp_count']}")
+        print(f"Port scans: {self.stats['scans_detected']} | Anomalies: {self.stats['anomalies_detected']}")
+        
+        if self.traffic_analyzer.baseline_established:
+            rate = self.traffic_analyzer.calculate_packet_rate()
+            print(f"Current packet rate: {rate:.2f} packets/sec")
+            print("Baseline: ESTABLISHED")
+        else:
+            remaining = 60 - (datetime.now() - self.traffic_analyzer.baseline_start).total_seconds()
+            print(f"Baseline: Building... ({max(0, int(remaining))}s remaining)")
+        
+        print("-" * 70 + "\n")
+    
+    def start(self, packet_limit=0):
+        print("=" * 70)
+        print("Network Security Monitor - Phase 3: Traffic Analysis")
+        print("=" * 70)
+        print(f"Interface: {self.interface or 'default'}")
+        print(f"Port scan threshold: {self.scan_detector.port_threshold} ports in {self.scan_detector.time_window}s")
+        print(f"Anomaly detection: {self.traffic_analyzer.anomaly_threshold}x threshold")
+        print("\nBuilding traffic baseline (60 seconds)...")
+        print("Monitoring network traffic... (Press Ctrl+C to stop)\n")
+        print(f"{'Packet#':8} {'Proto':6} {'Source':15}   {'Destination':15} {'Service'}")
+        print("-" * 70)
+        
+        try:
+            sniff(iface=self.interface, prn=self.packet_callback, store=0, count=packet_limit)
+        except KeyboardInterrupt:
+            print("\n\nStopping network monitor...")
+            self._print_stats()
+            print(f"\nTotal packets: {self.packet_count}")
+            print(f"Port scans: {self.stats['scans_detected']}")
+            print(f"Anomalies: {self.stats['anomalies_detected']}")
+        except Exception as e:
+            print(f"\nError: {e}")
+            sys.exit(1)
+
+def main():
+    monitor = NetworkMonitor(interface=None)
+    monitor.start(packet_limit=0)
+
+if __name__ == "__main__":
+    main()
