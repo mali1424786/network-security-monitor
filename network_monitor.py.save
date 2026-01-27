@@ -1,0 +1,112 @@
+££#!/usr/bin/env python3
+"""
+Network Security Monitor - Phase 2: Port Scan Detection
+This script captures packets and detects port scanning attempts.
+Run with: sudo python3 network_monitor.py
+"""
+
+from scapy.all import sniff, IP, TCP, UDP, ICMP
+from datetime import datetime, timedelta
+from collections import defaultdict
+import json
+import sys
+
+class PortScanDetector:
+    """
+    Tracks connection attempts to detect port scanning.
+    
+    Port scanning is when someone tries to find open ports on your network
+    by attempting connections to many different ports quickly.
+    """
+    
+    def __init__(self, time_window=60, port_threshold=20):
+        """
+        Args:
+            time_window: Seconds to track connections (default 60)
+            port_threshold: Number of ports before alerting (default 20)
+        """
+        self.time_window = time_window
+        self.port_threshold = port_threshold
+        
+        # Track what ports each IP has tried to connect to
+        # Structure: {ip_address: {port: timestamp}}
+        self.connection_attempts = defaultdict(dict)
+        
+        # Store detected scans
+        self.detected_scans = []
+    
+    def track_connection(self, src_ip, dst_port, timestamp):
+        """
+        Record a connection attempt and check if it looks like a scan.
+        
+        Returns True if a new scan is detected.
+        """
+        # Add this port attempt to our tracking
+        self.connection_attempts[src_ip][dst_port] = timestamp
+        
+        # Clean up old attempts outside our time window
+        self._cleanup_old_attempts(src_ip, timestamp)
+        
+        # Check if this IP is scanning
+        port_count = len(self.connection_attempts[src_ip])
+        
+        if port_count >= self.port_threshold:
+            # This looks like a scan!
+            return self._record_scan(src_ip, port_count, timestamp)
+        
+        return False
+    
+    def _cleanup_old_attempts(self, src_ip, current_time):
+        """
+        Remove connection attempts older than our time window.
+        This keeps our memory usage reasonable.
+        """
+        cutoff_time = current_time - timedelta(seconds=self.time_window)
+        
+        # Remove old entries
+        ports_to_remove = [
+            port for port, timestamp in self.connection_attempts[src_ip].items()
+            if timestamp < cutoff_time
+        ]
+        
+        for port in ports_to_remove:
+            del self.connection_attempts[src_ip][port]
+    
+    def _record_scan(self, src_ip, port_count, timestamp):
+        """
+        Record a detected port scan if we haven't already alerted on this one.
+        """
+        # Check if we already alerted about this IP recently
+        recent_cutoff = timestamp - timedelta(seconds=self.time_window)
+        
+        for scan in self.detected_scans:
+            if (scan['source_ip'] == src_ip and 
+                scan['timestamp'] > recent_cutoff):
+                # Already alerted about this scan
+                return False
+        
+        # New scan detected!
+        scan_info = {
+            'source_ip': src_ip,
+            'timestamp': timestamp,
+            'ports_scanned': port_count,
+            'time_window': self.time_window,
+            'ports': list(self.connection_attempts[src_ip].keys())
+        }
+        
+        self.detected_scans.append(scan_info)
+        return True
+
+
+class NetworkMonitor:
+    def __init__(self, interface=None):
+        """
+        Initialize the network monitor with port scan detection.
+        """
+        self.interface = interface
+        self.packet_count = 0
+        self.packets_data = []
+        
+        # Initialize port scan detector
+        self.scan_detector = PortScanDetector(
+            time_window=60,      # Track connections over

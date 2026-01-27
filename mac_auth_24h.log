@@ -1,0 +1,1630 @@
+Timestamp                       Thread     Type        Activity             PID    TTL  
+2026-01-19 11:47:29.280897-0600 0x1de5b3   Default     0x0                  29738  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 11:51:29.073140-0600 0x1df2d2   Default     0x0                  29792  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 11:55:28.456656-0600 0x1dfd90   Default     0x0                  29822  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 11:59:29.236468-0600 0x1e083e   Default     0x0                  29849  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:03:29.504040-0600 0x1e14c1   Default     0x0                  29876  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:07:30.058426-0600 0x1e2018   Default     0x0                  29924  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:11:29.354064-0600 0x1e2a58   Default     0x0                  29955  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:14:04.474791-0600 0x1e2fc0   Error       0x568c37             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 12:14:05.500432-0600 0x1e2fb4   Error       0x568c3f             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 12:14:06.260144-0600 0x1e3042   Default     0x56aa85             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 12:14:06.272494-0600 0x1da0c9   Default     0x56aa87             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 12:14:06.370197-0600 0x1e2fb3   Error       0x57b80a             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 12:14:06.544745-0600 0x1e3041   Default     0x56aa8e             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 12:14:06.551028-0600 0x1e3041   Default     0x57b860             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 12:14:14.114420-0600 0x1e2fb3   Error       0x57b855             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 12:14:14.330831-0600 0x1e2fb4   Error       0x57b85d             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 12:14:14.458302-0600 0x1e312b   Default     0x57b866             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 12:14:14.461509-0600 0x1e312b   Default     0x57b868             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 12:14:14.546943-0600 0x1e2fb4   Error       0x57b938             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 12:14:14.680466-0600 0x1e312b   Default     0x57b86f             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 12:14:14.682787-0600 0x1e30c9   Default     0x57b941             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 12:15:30.220925-0600 0x1e3570   Default     0x0                  29996  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:19:31.004226-0600 0x1e3e08   Default     0x0                  30010  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:23:30.435961-0600 0x1e46fe   Default     0x0                  30034  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:27:30.403698-0600 0x1e501e   Default     0x0                  30064  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:31:30.993982-0600 0x1e5a54   Default     0x0                  30094  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:35:30.761430-0600 0x1e6588   Default     0x0                  30140  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:39:30.558516-0600 0x1e6f8d   Default     0x0                  30184  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:43:30.483265-0600 0x1e78f3   Default     0x0                  30226  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:47:30.614518-0600 0x1e82d0   Default     0x0                  30254  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:51:30.690479-0600 0x1e8cd8   Default     0x0                  30289  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:55:30.656222-0600 0x1e966a   Default     0x0                  30312  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 12:57:19.670722-0600 0x1e9acb   Default     0x0                  27880  30   softwareupdated: (SoftwareUpdateCoreConnect) [com.apple.SoftwareUpdateMacController:CLIENT] [SendServerMessage](com.apple.sumaccontroller) Connected to server and calling sendMessage SUCoreConnectMessage(type:CLIENT_MESSAGE|name:SUMacControllerCommandScan|clientID:softwareupdated.<27880>|clientIDRaw:softwareupdated|clientProcessIdentifier:27880|version:(null)|error:(null)|message:[>>>
+	SUMacControllerClientID: softwareupdated
+	SUMacControllerCookie: F306667D-922A-4992-A169-98332C090B14.<8>
+	SUMacControllerOptions: {
+		SUMacControllerOverrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+		SUMacControllerAccessControlContext: AccessControlContext(clientID:softwareupdated|priority:Background|event:(null)|eventType:None|clientDisconnectOccurred:NO|additionalContext:none)
+
+	}
+	SUMacControllerCommand: SUMacControllerCommandScan
+<<<]) for connection <NSXPCConnection: 0x7fd92de115c0> connection to service with pid 27880 named com.apple.sumaccontroller
+2026-01-19 12:57:19.675324-0600 0x1e9ab9   Default     0x0                  27880  30   softwareupdated: (SoftwareUpdateCoreConnect) [com.apple.SoftwareUpdateMacController:SERVER-com.apple.sumaccontroller] [SendServerMessage] Received message: SUCoreConnectMessage(type:CLIENT_MESSAGE|name:SUMacControllerCommandScan|clientID:softwareupdated.<27880>|clientIDRaw:softwareupdated|clientProcessIdentifier:27880|version:(null)|error:(null)|message:[>>>
+	SUMacControllerClientID: softwareupdated
+	SUMacControllerCookie: F306667D-922A-4992-A169-98332C090B14.<8>
+	SUMacControllerOptions: {
+		SUMacControllerOverrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+		SUMacControllerAccessControlContext: AccessControlContext(clientID:softwareupdated|priority:Background|event:(null)|eventType:None|clientDisconnectOccurred:NO|additionalContext:none)
+
+	}
+	SUMacControllerCommand: SUMacControllerCommandScan
+<<<]) (proxyObject:YES, reply:YES)
+2026-01-19 12:57:19.675691-0600 0x1e9ab9   Default     0x0                  27880  30   softwareupdated: (SoftwareUpdateMacController) [com.apple.su:SERVER] [HandleMessage] SUMacControllerServer handleMessage delegate called message:SUCoreConnectMessage(type:CLIENT_MESSAGE|name:SUMacControllerCommandScan|clientID:softwareupdated.<27880>|clientIDRaw:softwareupdated|clientProcessIdentifier:27880|version:(null)|error:(null)|message:[>>>
+	SUMacControllerClientID: softwareupdated
+	SUMacControllerCookie: F306667D-922A-4992-A169-98332C090B14.<8>
+	SUMacControllerOptions: {
+		SUMacControllerOverrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+		SUMacControllerAccessControlContext: AccessControlContext(clientID:softwareupdated|priority:Background|event:(null)|eventType:None|clientDisconnectOccurred:NO|additionalContext:none)
+
+	}
+	SUMacControllerCommand: SUMacControllerCommandScan
+<<<]) proxyObject:<_NSXPCDistantObject: 0x7fd92dd0d3e0> hasReply:YES
+2026-01-19 12:57:19.676773-0600 0x1e9acb   Default     0x0                  27880  30   softwareupdated: (SoftwareUpdateMacController) [com.apple.SoftwareUpdateMacController:SU] [SUMacControllerClientRequest] Using client provided overrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+2026-01-19 12:59:31.260277-0600 0x1ea04d   Default     0x0                  30337  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:03:32.130406-0600 0x1eadd4   Default     0x0                  30365  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:07:31.939801-0600 0x1eb891   Default     0x0                  30414  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:11:32.309278-0600 0x1ec359   Default     0x0                  30437  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:15:32.466099-0600 0x1ecd96   Default     0x0                  30478  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:19:32.989818-0600 0x1ed69a   Default     0x0                  30503  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:23:33.015267-0600 0x1edfe8   Default     0x0                  30529  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:25:34.476256-0600 0x1ee565   Default     0x0                  627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] clearing authentication: <AuthenticationInProgress: 0x7feac2e040c0; pid:181, started: 1/19/26, 12:14:04 PM CST, uid: 501, AHP: 0, priority: Default(1)>
+2026-01-19 13:25:34.600645-0600 0x1ee56f   Error       0x585c32             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 13:25:34.746189-0600 0x1ee046   Activity    0x57b787             181    0    loginwindow: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-19 13:25:34.948726-0600 0x1ee5f7   Activity    0x585c9c             30540  0    authorizationhost: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-19 13:25:35.493779-0600 0x1ee591   Error       0x585c3a             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 13:25:38.447611-0600 0x1e3149   Default     0x57b94b             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 13:25:38.454921-0600 0x1e3149   Default     0x57b94d             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 13:25:38.544963-0600 0x1ee56e   Error       0x585f27             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 13:25:38.966510-0600 0x1ee5ad   Default     0x585f33             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 13:25:38.971617-0600 0x1ee688   Default     0x585f35             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 13:27:32.604076-0600 0x1eeb4f   Default     0x0                  30549  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:31:32.667290-0600 0x1ef672   Default     0x0                  30565  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:35:32.528839-0600 0x1f04be   Default     0x0                  30604  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:39:32.911814-0600 0x1f10f1   Default     0x0                  30635  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:41:58.576420-0600 0x1f19aa   Activity    0x588256             30670  0    login: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-19 13:43:33.079591-0600 0x1f1ea1   Default     0x0                  30681  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:47:33.305384-0600 0x1f2c90   Default     0x0                  30695  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:50:26.564750-0600 0x1f2e28   Default     0x588f77             646    0    identityservicesd: (IMFoundation) [com.apple.IDS:URLLoading] Received authentication challenge:
+  ---->Protection Space: <Realm: (null), Host: <private>, Protocol: https, Method: NSURLAuthenticationMethodServerTrust>
+  ---->Proposed Credential: (null)
+  Performing default handling.
+2026-01-19 13:50:26.575099-0600 0x1f345a   Default     0x588f77             646    0    identityservicesd: (IMFoundation) [com.apple.IDS:URLLoading] Received authentication challenge:
+  ---->Protection Space: <Realm: (null), Host: <private>, Protocol: https, Method: NSURLAuthenticationMethodServerTrust>
+  ---->Proposed Credential: (null)
+  Performing default handling.
+2026-01-19 13:50:35.964190-0600 0x1f3543   Activity    0x589db6             30714  0    login: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-19 13:51:33.608753-0600 0x1f37ad   Default     0x0                  30723  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:55:33.861476-0600 0x1f410d   Default     0x0                  30736  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 13:59:34.348006-0600 0x1f4c06   Default     0x0                  30755  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:00:12.864010-0600 0x1f4d97   Default     0x0                  30758  0    FaceTime: (FaceTimeMac) [com.apple.calls.facetime:AppController] User authentication status <private>, hiding main scene.
+2026-01-19 14:00:13.177898-0600 0x1f4d97   Default     0x0                  30758  0    FaceTime: (FaceTimeAuthentication) [com.apple.calls.facetime:Authentication] User authentication status is unknown, proceed with getting account.
+2026-01-19 14:00:15.203935-0600 0x1f4e55   Default     0x0                  30758  0    FaceTime: (IMFoundation) [com.apple.IDS:URLLoading] Received authentication challenge:
+  ---->Protection Space: <Realm: (null), Host: <private>, Protocol: https, Method: NSURLAuthenticationMethodServerTrust>
+  ---->Proposed Credential: (null)
+  Performing default handling.
+2026-01-19 14:03:34.927564-0600 0x1f5caa   Default     0x0                  30796  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:07:31.815980-0600 0x1f69ca   Activity    0x58e24f             181    0    loginwindow: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-19 14:07:32.230630-0600 0x1f6a0d   Error       0x58e332             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 14:07:32.798548-0600 0x1f6b45   Error       0x58e33a             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 14:07:33.224791-0600 0x1f6b51   Default     0x585f3c             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:07:33.231732-0600 0x1f6b51   Default     0x585f3e             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:07:33.308604-0600 0x1f6a0c   Error       0x58e395             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 14:07:33.730421-0600 0x1ee687   Default     0x58e3a5             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:07:33.766725-0600 0x1ee687   Default     0x58e3a7             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:07:35.531151-0600 0x1f6c01   Default     0x0                  30834  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:07:41.846408-0600 0x1f6b45   Error       0x58e620             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 14:07:42.052299-0600 0x1f6a0c   Error       0x58e628             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 14:07:42.179491-0600 0x1f6d1c   Default     0x58e3af             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:07:42.183265-0600 0x1f6d1c   Default     0x58e651             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:07:42.266940-0600 0x1f6b45   Error       0x58e663             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 14:07:42.393420-0600 0x1ee687   Default     0x58e658             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:07:42.396430-0600 0x1f6d2f   Default     0x58e65a             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:11:35.760777-0600 0x1f76c2   Default     0x0                  30869  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:15:35.664199-0600 0x1f8212   Default     0x0                  30910  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:19:36.475223-0600 0x1f8baf   Default     0x0                  30939  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:23:36.665468-0600 0x1f95ff   Default     0x0                  30964  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:27:36.604826-0600 0x1f9f6e   Default     0x0                  30979  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:31:36.555881-0600 0x1fa9c8   Default     0x0                  31012  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:35:37.166894-0600 0x1fb650   Default     0x0                  31085  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:39:36.728058-0600 0x1fc0b9   Default     0x0                  31150  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:43:36.602073-0600 0x1fcabc   Default     0x0                  31194  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:45:05.204472-0600 0x1f6b4b   Default     0x0                  627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] clearing authentication: <AuthenticationInProgress: 0x7feac2b0f090; pid:181, started: 1/19/26, 2:07:31 PM CST, uid: 501, AHP: 0, priority: Default(1)>
+2026-01-19 14:45:05.334552-0600 0x1fcef0   Error       0x58e66d             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 14:45:05.562274-0600 0x1fcf4a   Error       0x594865             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 14:45:05.767427-0600 0x1fd006   Default     0x58e673             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:45:05.772185-0600 0x1fd018   Default     0x58e675             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:45:05.856223-0600 0x1fcf4a   Error       0x594872             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 14:45:06.193593-0600 0x1f6d2e   Default     0x58e67b             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:45:06.200511-0600 0x1fd006   Default     0x58e67d             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 14:45:06.452655-0600 0x1fcf73   Activity    0x58e2a6             181    0    loginwindow: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-19 14:45:06.588347-0600 0x1fd05e   Activity    0x5948ec             31222  0    authorizationhost: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-19 14:47:37.096419-0600 0x1fda55   Default     0x0                  31242  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:51:36.656184-0600 0x1fe975   Default     0x0                  31276  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:55:36.448626-0600 0x1ff708   Default     0x0                  31295  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 14:59:37.210702-0600 0x20040d   Default     0x0                  31308  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 15:03:36.724953-0600 0x201214   Default     0x0                  31329  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 15:07:36.820346-0600 0x201fc4   Default     0x0                  31358  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 15:11:36.673784-0600 0x202e1d   Default     0x0                  31376  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 15:15:37.175689-0600 0x203a3a   Default     0x0                  31390  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 15:19:37.052966-0600 0x2047a4   Default     0x0                  31407  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 15:23:36.646214-0600 0x205244   Default     0x0                  31423  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 15:24:10.658803-0600 0x2053fa   Default     0x0                  31428  0    FaceTime: (FaceTimeMac) [com.apple.calls.facetime:AppController] User authentication status <private>, hiding main scene.
+2026-01-19 15:24:10.946676-0600 0x2053fa   Default     0x0                  31428  0    FaceTime: (FaceTimeAuthentication) [com.apple.calls.facetime:Authentication] User authentication status is unknown, proceed with getting account.
+2026-01-19 15:24:12.020689-0600 0x2053d8   Default     0x0                  646    0    identityservicesd: (IMFoundation) [com.apple.IDS:URLLoading] Received authentication challenge:
+  ---->Protection Space: <Realm: (null), Host: <private>, Protocol: https, Method: NSURLAuthenticationMethodServerTrust>
+  ---->Proposed Credential: (null)
+  Performing default handling.
+2026-01-19 15:24:12.226441-0600 0xe92      Default     0x0                  646    0    identityservicesd: (IMFoundation) [com.apple.IDS:URLLoading] Received authentication challenge:
+  ---->Protection Space: <Realm: (null), Host: <private>, Protocol: https, Method: NSURLAuthenticationMethodServerTrust>
+  ---->Proposed Credential: (null)
+  Performing default handling.
+2026-01-19 15:24:12.560548-0600 0xe92      Default     0x0                  646    0    identityservicesd: (IMFoundation) [com.apple.IDS:URLLoading] Received authentication challenge:
+  ---->Protection Space: <Realm: (null), Host: <private>, Protocol: https, Method: NSURLAuthenticationMethodServerTrust>
+  ---->Proposed Credential: (null)
+  Performing default handling.
+2026-01-19 15:27:37.448739-0600 0x2061af   Default     0x0                  31446  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 15:31:38.269693-0600 0x206f59   Default     0x0                  31487  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 15:35:38.994834-0600 0x207cc2   Default     0x0                  31546  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 15:39:00.895075-0600 0x208d10   Error       0x59bced             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 15:39:01.729104-0600 0x208a51   Error       0x59fe55             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 15:39:03.202267-0600 0x1f6d2e   Default     0x594894             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 15:39:03.247660-0600 0x1fd029   Default     0x594896             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 15:39:03.333060-0600 0x208d4c   Error       0x59ffd0             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 15:39:09.832350-0600 0x2089f1   Error       0x59ffdb             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 15:39:10.033303-0600 0x208d0f   Error       0x5a01e3             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 15:39:10.195024-0600 0x208e0c   Default     0x5a00c3             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 15:39:10.201046-0600 0x208e0c   Default     0x5a00c5             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 15:39:10.292273-0600 0x208d4c   Error       0x5a01ee             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 15:39:10.449213-0600 0x208e0c   Default     0x5a00cc             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 15:39:10.450653-0600 0x208e22   Default     0x5a00ce             28145  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f946ef06f50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 15:39:10.528643-0600 0x208e41   Default     0x0                  31799  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 16:10:04.510945-0600 0x209333   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 18:14:30.475849-0600 0x1bc1bb   Default     0x0                  6196   0    bluetoothd: [com.apple.bluetooth:Stack.SECMGR]  Send authentication request
+2026-01-19 18:14:36.423326-0600 0x2096c4   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 18:40:53.926070-0600 0x209ec5   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 18:40:57.460212-0600 0x1bc1ba   Default     0x0                  6196   0    bluetoothd: [com.apple.bluetooth:Stack.SECMGR]  Send authentication request
+2026-01-19 18:41:20.050349-0600 0x20a595   Default     0x0                  31922  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 18:47:11.711155-0600 0x20aa22   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 19:15:35.120653-0600 0x20aec6   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 19:15:44.477363-0600 0x20b1fd   Default     0x0                  31973  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 19:42:00.287840-0600 0x20b539   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 19:42:06.734605-0600 0x20add3   Error       0x5a0236             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 19:42:07.092582-0600 0x20b198   Error       0x5a88e2             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 19:42:07.175770-0600 0x20b199   Error       0x5a88e3             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 19:42:10.834184-0600 0x20ace6   Error       0x5a88eb             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 19:55:29.735202-0600 0x20b9c2   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 19:55:33.756967-0600 0x20bd3a   Default     0x0                  32048  30   softwareupdated: (OSUpdate) [com.apple.SoftwareUpdate:SoftwareUpdate] SUOSUAuthenticationManager: Disabling local authentication requirement
+2026-01-19 19:59:37.611337-0600 0x20b9d5   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 19:59:43.146624-0600 0x20b9c5   Default     0x5aa8da             31937  0    findmydeviced: [com.apple.icloud.findmydeviced:_] FMDDirectServerChannel Detecting authentication method
+2026-01-19 19:59:48.259962-0600 0x20c436   Default     0x5abc78             32038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fd371d15a00> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 19:59:48.326814-0600 0x20c42f   Default     0x5abc7e             32038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fd371d15a00> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 19:59:48.439638-0600 0x20af0a   Error       0x5abd81             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 19:59:48.521613-0600 0x20c177   Error       0x5abd80             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-19 19:59:48.693931-0600 0x20c439   Default     0x5abe16             32038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fd371d15a00> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 19:59:48.706829-0600 0x20c438   Default     0x5abe1b             32038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fd371d15a00> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-19 20:05:53.012360-0600 0x20c598   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 20:06:37.615728-0600 0x20cbea   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 20:08:03.894590-0600 0x20cf9c   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 20:09:40.819089-0600 0x20cdcc   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 20:22:07.098202-0600 0x20d7b0   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 20:23:04.819319-0600 0x20d9dd   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 20:43:06.411352-0600 0x20df37   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 21:44:13.234717-0600 0x20e34a   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 22:45:20.279370-0600 0x20e9b6   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-19 22:45:46.236002-0600 0x20eed5   Default     0x0                  32255  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 22:46:00.260576-0600 0x20f136   Default     0x0                  32255  0    screensharingd: close the connection from viewer authentication thread
+2026-01-19 23:46:27.857749-0600 0x20f335   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 00:47:33.920504-0600 0x20f992   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 00:47:42.661088-0600 0x20f3ac   Default     0x5b7d22             31937  0    findmydeviced: [com.apple.icloud.findmydeviced:_] FMDDirectServerChannel Detecting authentication method
+2026-01-20 00:47:43.833927-0600 0x20fca4   Default     0x0                  32388  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 00:47:44.726933-0600 0x20fa55   Default     0x5b7d22             31937  0    findmydeviced: [com.apple.icloud.findmydeviced:_] FMDDirectServerChannel Detecting authentication method
+2026-01-20 00:49:44.724536-0600 0x210140   Default     0x0                  31937  0    findmydeviced: [com.apple.icloud.findmydeviced:_] FMDDirectServerChannel Detecting authentication method
+2026-01-20 01:48:39.463371-0600 0x2103f3   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 03:40:38.833895-0600 0x210734   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 03:55:11.598595-0600 0x210d2d   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 03:55:39.418206-0600 0x211161   Default     0x0                  32513  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 06:01:04.133030-0600 0x210b73   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 06:14:32.313443-0600 0x21193b   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 06:14:46.104586-0600 0x211be8   Default     0x0                  32561  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 06:17:22.159489-0600 0x211d10   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 06:19:00.675716-0600 0x212099   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 06:19:03.228619-0600 0x2122c4   Default     0x0                  32586  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 06:46:48.906737-0600 0x212599   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 07:27:33.770399-0600 0x2128f6   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 07:27:49.282753-0600 0x212c7b   Default     0x0                  32620  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 07:33:39.706095-0600 0x212d69   Activity    0x5c2773             181    0    loginwindow: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-20 07:33:40.796312-0600 0x212e1e   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 07:33:47.712920-0600 0x212e03   Default     0x5c30f6             646    0    identityservicesd: (IMFoundation) [com.apple.IDS:URLLoading] Received authentication challenge:
+  ---->Protection Space: <Realm: (null), Host: <private>, Protocol: https, Method: NSURLAuthenticationMethodServerTrust>
+  ---->Proposed Credential: (null)
+  Performing default handling.
+2026-01-20 07:33:47.773600-0600 0x21320c   Default     0x5c30f6             646    0    identityservicesd: (IMFoundation) [com.apple.IDS:URLLoading] Received authentication challenge:
+  ---->Protection Space: <Realm: (null), Host: <private>, Protocol: https, Method: NSURLAuthenticationMethodServerTrust>
+  ---->Proposed Credential: (null)
+  Performing default handling.
+2026-01-20 07:33:49.332923-0600 0x213367   Default     0x0                  32648  0    transparencyd: [com.apple.Transparency:default] device identity authentication unsupported; will use account auth
+2026-01-20 07:33:55.942859-0600 0x2134ad   Default     0x0                  32663  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 07:34:06.147087-0600 0x2132b1   Default     0x0                  32636  0    CallHistorySyncHelper: (IMFoundation) [com.apple.IDS:URLLoading] Received authentication challenge:
+  ---->Protection Space: <Realm: (null), Host: <private>, Protocol: https, Method: NSURLAuthenticationMethodServerTrust>
+  ---->Proposed Credential: (null)
+  Performing default handling.
+2026-01-20 07:34:25.088376-0600 0x2138d6   Error       0x5c55d9             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:31.077083-0600 0x2138d5   Error       0x5c5c0f             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:33.227870-0600 0x21327b   Error       0x5c5c6f             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 07:34:35.522096-0600 0x2138fa   Error       0x5c5fbc             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:35.544449-0600 0x2138fa   Error       0x5c6411             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:35.722786-0600 0x2138fa   Error       0x5c6412             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:35.829499-0600 0x2138fa   Error       0x5c6416             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:35.842883-0600 0x2138fa   Error       0x5c641a             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:35.923541-0600 0x2138fa   Error       0x5c641f             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:36.169778-0600 0x2130aa   Default     0x0                  31937  0    findmydeviced: [com.apple.icloud.findmydeviced:_] FMDDirectServerChannel Detecting authentication method
+2026-01-20 07:34:41.538763-0600 0x2138fa   Error       0x5c64b5             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:41.819264-0600 0x2138fa   Error       0x5c64bf             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:41.874425-0600 0x2138fa   Error       0x5c6fe4             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:42.475702-0600 0x213a16   Error       0x5c7251             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:42.476735-0600 0x213a16   Error       0x5c7256             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:42.483593-0600 0x213a16   Error       0x5c725e             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:42.485286-0600 0x213a16   Error       0x5c7262             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:42.487048-0600 0x213a16   Error       0x5c7267             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:42.488884-0600 0x213a16   Error       0x5c726e             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:42.980528-0600 0x213a16   Error       0x5c73c2             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:42.984206-0600 0x213a16   Error       0x5c73c7             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:44.791935-0600 0x213a16   Error       0x5c747a             32715  14   adprivacyd: (AuthKit) [com.apple.authkit:core] Remote authentication service returned an error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction." UserInfo={NSDebugDescription=The connection to service named com.apple.ak.auth.xpc was invalidated: failed at lookup with error 159 - Sandbox restriction.}
+2026-01-20 07:34:51.969822-0600 0x212d0e   Error       0x5c711e             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 07:35:19.981249-0600 0x214438   Default     0x0                  32806  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 07:36:02.321185-0600 0x2145e9   Activity    0x5c93e6             181    0    loginwindow: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-20 07:36:02.393255-0600 0x21307d   Default     0x0                  627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] clearing authentication: <AuthenticationInProgress: 0x7feac2b0a8e0; pid:181, started: 1/20/26, 7:33:39 AM CST, uid: 501, AHP: 0, priority: Default(1)>
+2026-01-20 07:36:02.654314-0600 0x214848   Activity    0x5ca7fc             32822  0    authorizationhost: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-20 07:36:05.354456-0600 0x214575   Error       0x5c9bab             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 07:36:05.727128-0600 0x213051   Error       0x5cb85b             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 07:36:06.092442-0600 0x2144c0   Default     0x5c7f1a             32752  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb5fcf0a680> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 07:36:06.170600-0600 0x2144d9   Error       0x5cbaf9             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 07:36:06.381124-0600 0x2149a1   Default     0x5cc0a0             32752  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb5fcf0a680> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 07:36:06.384423-0600 0x21477a   Default     0x5cc0a2             32752  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb5fcf0a680> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 07:36:10.056125-0600 0x214833   Default     0x0                  9013   0    networkserviceproxy: [com.apple.networkserviceproxy:] authentication info updated to <NSPPrivacyProxyAuthenticationInfo: 0x7fe389a821b0> {
+    accessTokenKnownOrigins =     (
+        "challenges.cloudflare.com",
+        "hcaptcha.com",
+        "recaptcha.net",
+        "challenges.forter.com",
+        "challenges.captcha-tools.com"
+    );
+    accessTokenTypes =     (
+    );
+    accessTokenURL = "https://attester.gateway.icloud.com/token-request";
+    authType = "BAA_ANISETTE";
+    authURL = "https://mask-api.icloud.com/v1/fetchAuthTokens";
+    nonDefaultAttesters =     (
+                {
+            associatedIssuers =             (
+                                {
+                    issuerName = "tis.gateway.icloud.com";
+                    tokenKeys =                     (
+                                                {
+                            expiration = 1771030800;
+                            key = {length = 342, bytes = 0x30820152 303d0609 2a864886 f70d0101 ... 987dd502 03010001 };
+                            rotation = 1769907600;
+                        }
+2026-01-20 07:36:10.346311-0600 0x214833   Default     0x0                  9013   0    networkserviceproxy: [com.apple.networkserviceproxy:] updating token fetch url https://mask-api.icloud.com/v1/fetchAuthTokens access token url https://attester.gateway.icloud.com/token-request authentication type BAA_ANISETTE
+2026-01-20 07:36:12.996510-0600 0x214aaa   Error       0x0                  32839  2    analyticsagent: (LaunchServices) [com.apple.launchservices:db] Error -10822 registering extension points inside framework file:///System/iOSSupport/System/Library/ExtensionKit/ExtensionPoints/com.apple.authentication-services-credential-provider-ui.appexpt
+2026-01-20 07:36:12.996923-0600 0x214aaa   Error       0x0                  32839  2    analyticsagent: (LaunchServices) [com.apple.launchservices:db] Error -10822 registering extension points inside framework file:///System/Library/ExtensionKit/ExtensionPoints/com.apple.authentication-services-credential-provider-ui.appexpt
+2026-01-20 07:36:18.090464-0600 0x214b69   Default     0x0                  32842  30   softwareupdated: (OSUpdate) [com.apple.SoftwareUpdate:SoftwareUpdate] SUOSUAuthenticationManager: Disabling local authentication requirement
+2026-01-20 07:36:50.393909-0600 0x214f85   Default     0x0                  32875  7    itunescloudd: (iTunesCloud) [com.apple.amp.iTunesCloud:Default] <ICLibraryAuthServiceClientTokenProvider: 0x7fc71c215b30> Loaded cached tokens: {
+    6056c1eb7078dccbf1680a42351c5ce90a81b08b = "<ICLibraryAuthServiceClientTokenStatus:0x7fc71c21a2b0 result=(null) lastError=Error Domain=ICError Code=-7402 \"Not allowing silent authentication because one was recently attempted already\" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already} lastUpdate='1993-11-25 18:57:36 +0000' autoRefreshEnabled=NO>";
+}
+2026-01-20 07:36:50.394155-0600 0x214f85   Default     0x0                  32875  7    itunescloudd: (iTunesCloud) [com.apple.amp.iTunesCloud:Default_Oversize] <ICLibraryAuthServiceClientTokenProvider: 0x7fc71c215b30> Reconciling cache entries {
+    6056c1eb7078dccbf1680a42351c5ce90a81b08b = "<ICLibraryAuthServiceClientTokenStatus:0x7fc71c21a2b0 result=(null) lastError=Error Domain=ICError Code=-7402 \"Not allowing silent authentication because one was recently attempted already\" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already} lastUpdate='1993-11-25 18:57:36 +0000' autoRefreshEnabled=NO>";
+} with current account list (
+    "<073eed0eef60220ff7d77417b162bd7228fd16d3 (842F29B8-4B5E-4F78-BA16-B62DD230A9D5) [DSID=6056c1eb7078dccbf1680a42351c5ce90a81b08b, isActive=1]>"
+)
+2026-01-20 07:36:50.394233-0600 0x214f85   Default     0x0                  32875  7    itunescloudd: (iTunesCloud) [com.apple.amp.iTunesCloud:Default] <ICLibraryAuthServiceClientTokenProvider: 0x7fc71c215b30> Skipping background refresh of DSID 277530754. last error: Error Domain=ICError Code=-7402 "Not allowing silent authentication because one was recently attempted already" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already}}
+2026-01-20 07:36:50.413475-0600 0x214f8b   Default     0x0                  32875  7    itunescloudd: [com.apple.amp.itunescloudd:UserState] <ICDMediaUserStateCenterServer: 0x7fc71c0143f0> Fetched token status dictionary: {
+    277530754 = "<ICLibraryAuthServiceClientTokenStatus:0x7fc71c21a2b0 result=(null) lastError=Error Domain=ICError Code=-7402 \"Not allowing silent authentication because one was recently attempted already\" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already} lastUpdate='1993-11-25 18:57:36 +0000' autoRefreshEnabled=NO>";
+}
+2026-01-20 07:39:21.542690-0600 0x215ffe   Default     0x0                  33220  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 07:39:37.932922-0600 0x215f6d   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 07:43:22.044854-0600 0x2171bc   Default     0x0                  33566  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 07:47:21.785617-0600 0x217f83   Default     0x0                  33609  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 07:51:21.690796-0600 0x218c35   Default     0x0                  33636  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 07:55:21.782490-0600 0x219863   Default     0x0                  33652  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 07:59:22.312312-0600 0x21a50b   Default     0x0                  33676  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:03:23.030891-0600 0x21b28a   Default     0x0                  33706  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:07:22.604377-0600 0x21c1af   Default     0x0                  33746  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:11:23.303742-0600 0x21ce05   Default     0x0                  33818  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:13:25.171793-0600 0x21d885   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Scheduling async authentication type update
+2026-01-20 08:13:25.171850-0600 0x21d89e   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Performing authentication type update in background
+2026-01-20 08:13:25.171853-0600 0x21d89e   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculating authentication type
+2026-01-20 08:13:25.362507-0600 0x21d89e   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculated authentication type as Touch ID, took 0.2s
+2026-01-20 08:13:58.741830-0600 0x21d885   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Scheduling async authentication type update
+2026-01-20 08:13:58.742170-0600 0x21dc90   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Performing authentication type update in background
+2026-01-20 08:13:58.742172-0600 0x21dc90   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculating authentication type
+2026-01-20 08:13:58.806741-0600 0x21dc90   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculated authentication type as Touch ID, took 0.1s
+2026-01-20 08:14:02.207075-0600 0x21d885   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Scheduling async authentication type update
+2026-01-20 08:14:02.221222-0600 0x21d9b8   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Performing authentication type update in background
+2026-01-20 08:14:02.221224-0600 0x21d9b8   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculating authentication type
+2026-01-20 08:14:02.257723-0600 0x21d9b8   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculated authentication type as Touch ID, took 0.0s
+2026-01-20 08:14:44.982638-0600 0x21d885   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Scheduling async authentication type update
+2026-01-20 08:14:44.982666-0600 0x21e037   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Performing authentication type update in background
+2026-01-20 08:14:44.982667-0600 0x21e037   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculating authentication type
+2026-01-20 08:14:44.999372-0600 0x21e037   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculated authentication type as Touch ID, took 0.0s
+2026-01-20 08:14:47.074093-0600 0x21d885   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Scheduling async authentication type update
+2026-01-20 08:14:47.098972-0600 0x21e039   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Performing authentication type update in background
+2026-01-20 08:14:47.098974-0600 0x21e039   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculating authentication type
+2026-01-20 08:14:47.135295-0600 0x21e039   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculated authentication type as Touch ID, took 0.0s
+2026-01-20 08:15:23.842262-0600 0x21e29b   Default     0x0                  33906  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:18:03.907265-0600 0x21eb21   Default     0x5dcd78             33951  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fd6f5105050> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 08:18:04.200400-0600 0x21eb55   Default     0x5dce12             33953  0    CredentialProviderExtensionHelper: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fc703b04410> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 08:18:04.225081-0600 0x21eb23   Default     0x5dce04             33951  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fd6f5105050> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 08:18:04.649056-0600 0x21eb55   Default     0x5dce15             33953  0    CredentialProviderExtensionHelper: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fc703b04410> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 08:18:05.346622-0600 0x21eb74   Default     0x5dce04             33955  0    com.apple.AuthenticationServices.Helper: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fa34af55cc0> Beginning discovery for flags: 1024, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 08:18:05.348904-0600 0x21eb74   Default     0x5dce04             33955  0    com.apple.AuthenticationServices.Helper: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fa34af55cc0> Beginning discovery for flags: 1024, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 08:18:05.356960-0600 0x21eb74   Default     0x5dce04             33955  0    com.apple.AuthenticationServices.Helper: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fa34af55cc0> Beginning discovery for flags: 1024, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 08:18:05.568618-0600 0x21eb74   Default     0x5dce04             33955  0    com.apple.AuthenticationServices.Helper: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fa34af55cc0> Beginning discovery for flags: 1024, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 08:18:05.570068-0600 0x21eb74   Default     0x5dce04             33955  0    com.apple.AuthenticationServices.Helper: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fa34af55cc0> Beginning discovery for flags: 1024, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 08:18:05.571211-0600 0x21eb74   Default     0x5dce04             33955  0    com.apple.AuthenticationServices.Helper: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fa34af55cc0> Beginning discovery for flags: 1024, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 08:18:06.342594-0600 0x2191e2   Default     0x0                  627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] Will not run idle blocks now, remote authentications in progress: (
+    "<AuthenticationInProgressToken 0x7feac2b09310 [priority:Default(1), pid:719, started:2026-01-20 14:18:06 +0000]>"
+)
+2026-01-20 08:18:06.450072-0600 0x21ebfb   Default     0x5dce04             33959  0    coreautha: [com.apple.LocalAuthentication:LADFRController] -[LADFRController _itemViewForItemIdentifier:] com.apple.la.arrow.authentication on <private>
+2026-01-20 08:18:08.697631-0600 0x21eb8d   Default     0x5dce04             33955  0    com.apple.AuthenticationServices.Helper: (LocalAuthenticationUI) [com.apple.LocalAuthentication:LAUIAuthenticationView] -[LAUIAuthenticationView authenticationResult:error:context:] {
+    14 = 1;
+    7 = {length = 32, bytes = 0x7ba09751 77d84208 d3e7a7dd 8b19c43b ... 10eeb7cb 2352136c };
+    1 = 1;
+    8 = 501;
+}, LAContext[11:865:1160 uiDelegate:<LAUIAuthenticationCore: 0x7fa34ba45150>] on <private>
+2026-01-20 08:18:08.697808-0600 0x219afd   Default     0x0                  719    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] clearing authentication: <AuthenticationInProgress: 0x7ff525312d00; pid:33955, started: 1/20/26, 8:18:06 AM CST, AHP: (null), priority: Default(1)>
+2026-01-20 08:19:24.203759-0600 0x21f07b   Default     0x0                  33976  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:20:11.705342-0600 0x21d885   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Scheduling async authentication type update
+2026-01-20 08:20:11.757247-0600 0x21ed2d   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Performing authentication type update in background
+2026-01-20 08:20:11.757252-0600 0x21ed2d   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculating authentication type
+2026-01-20 08:20:11.898828-0600 0x21ed2d   Default     0x0                  33865  0    Photos: (PhotosUICore) [com.apple.photos.ui:ContentPrivacyUI] [SystemAuthenticationObserver] Calculated authentication type as Touch ID, took 0.1s
+2026-01-20 08:23:24.079157-0600 0x220089   Default     0x0                  34008  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:27:23.678943-0600 0x220c94   Default     0x0                  34021  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:31:24.126993-0600 0x221708   Default     0x0                  34038  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:35:23.915209-0600 0x2225c2   Default     0x0                  34067  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:39:24.155088-0600 0x2232b7   Default     0x0                  34089  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:43:24.036931-0600 0x223c3c   Default     0x0                  34110  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:47:23.465112-0600 0x224a85   Default     0x0                  34150  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:51:23.481256-0600 0x2256f3   Default     0x0                  34162  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:55:23.968830-0600 0x2261cd   Default     0x0                  34176  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 08:59:23.540548-0600 0x226acb   Default     0x0                  34190  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 09:03:24.190570-0600 0x2273ff   Default     0x0                  34203  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 09:07:24.022187-0600 0x227db5   Default     0x0                  34228  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 09:08:53.127772-0600 0x2282eb   Default     0x0                  34255  30   softwareupdated: (OSUpdate) [com.apple.SoftwareUpdate:SoftwareUpdate] SUOSUAuthenticationManager: Disabling local authentication requirement
+2026-01-20 09:09:29.996869-0600 0x22860d   Error       0x5d637a             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 09:09:31.853349-0600 0x22860d   Error       0x5e7922             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 09:09:36.040666-0600 0x22889c   Default     0x5e7be8             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:09:36.090499-0600 0x22889b   Default     0x5e7beb             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:09:36.182449-0600 0x2287b1   Error       0x5e792d             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 09:09:36.522788-0600 0x22889e   Default     0x5e7c1f             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:09:36.527069-0600 0x22889e   Default     0x5e7c61             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:09:40.144025-0600 0x2287b1   Error       0x5e7c58             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 09:09:40.675934-0600 0x228373   Error       0x5e7e20             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 09:09:40.999943-0600 0x22889d   Default     0x5e7c6a             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:09:41.015190-0600 0x22889d   Default     0x5e7c6c             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:09:41.102251-0600 0x2287b1   Error       0x5e7e2b             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 09:09:41.383205-0600 0x228897   Default     0x5e7e33             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:09:41.424423-0600 0x22889c   Default     0x5e7e35             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:09:49.628103-0600 0x228b95   Default     0x0                  34333  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 09:30:38.921181-0600 0x228ac7   Default     0x0                  627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] canceling running authentication: <AuthenticationInProgress: 0x7feac2c07610; pid:181, started: 1/20/26, 9:09:30 AM CST, uid: 501, AHP: 0, priority: Default(1)> mechanism: MechanismTouchId[37]
+2026-01-20 09:30:39.303234-0600 0x228ac7   Default     0x0                  627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] clearing authentication: <AuthenticationInProgress: 0x7feac2c07610; pid:181, started: 1/20/26, 9:09:30 AM CST, uid: 501, AHP: 0, priority: Default(1)>
+2026-01-20 09:30:40.495665-0600 0x229001   Activity    0x5e76ec             181    0    loginwindow: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-20 09:30:48.121134-0600 0x2287b2   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 09:31:02.095931-0600 0x229423   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 09:31:30.967608-0600 0x2299f6   Default     0x0                  34395  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 09:33:42.707165-0600 0x22a0f9   Activity    0x5e8afb             181    0    loginwindow: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-20 09:33:49.373482-0600 0x22a1d7   Default     0x5ea72f             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Successful SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A console domain
+2026-01-20 09:33:49.499027-0600 0x22a351   Activity    0x5ea73a             34448  0    authorizationhost: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-20 09:33:50.147886-0600 0x22a298   Default     0x5ea67f             627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] canceling running authentication: <AuthenticationInProgress: 0x7feac2e0ee90; pid:181, started: 1/20/26, 9:30:41 AM CST, uid: 501, AHP: 0, priority: Default(1)> mechanism: MechanismTouchId[40](run)
+2026-01-20 09:33:50.202300-0600 0x22a298   Default     0x5ea67f             627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] canceling running authentication: <AuthenticationInProgress: 0x7feac2e0ee90; pid:181, started: 1/20/26, 9:30:41 AM CST, uid: 501, AHP: 0, priority: Default(1)> mechanism: MechanismTouchId[40]
+2026-01-20 09:33:50.203474-0600 0x22a298   Default     0x5ea67f             627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] clearing authentication: <AuthenticationInProgress: 0x7feac2e0ee90; pid:181, started: 1/20/26, 9:30:41 AM CST, uid: 501, AHP: 0, priority: Default(1)>
+2026-01-20 09:33:50.618586-0600 0x22a075   Error       0x5ea7e5             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 09:33:50.881016-0600 0x22a1f4   Error       0x5ea7ed             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 09:33:51.115728-0600 0x22a3df   Default     0x5e7e3e             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:33:51.120459-0600 0x228c2d   Default     0x5ea930             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:33:51.206510-0600 0x22a1f4   Error       0x5ea92a             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 09:33:51.329006-0600 0x22a3df   Default     0x5ea936             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:33:51.331862-0600 0x228c2d   Default     0x5ea938             34325  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7fb0f7c07b50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 09:35:31.599993-0600 0x22abbc   Default     0x0                  34506  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 09:37:51.266732-0600 0x22b703   Default     0x0                  8168   0    wifip2pd: [com.apple.wifip2pd:interface] Infra authentication complete
+2026-01-20 09:39:32.392009-0600 0x22be52   Default     0x0                  34849  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 09:41:47.832156-0600 0x22c65f   Error       0x5ee8c1             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 09:43:32.896670-0600 0x22d5d0   Default     0x0                  34996  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 09:47:33.312674-0600 0x22e52b   Default     0x0                  35045  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 09:51:33.721238-0600 0x22f1c8   Default     0x0                  35077  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 09:55:32.648764-0600 0x22fff1   Default     0x0                  35131  30   softwareupdated: (OSUpdate) [com.apple.SoftwareUpdate:SoftwareUpdate] SUOSUAuthenticationManager: Disabling local authentication requirement
+2026-01-20 09:55:33.351353-0600 0x22fff7   Default     0x0                  35131  30   softwareupdated: (SoftwareUpdateCoreConnect) [com.apple.SoftwareUpdateMacController:CLIENT] [SendServerMessage](com.apple.sumaccontroller) Connected to server and calling sendMessage SUCoreConnectMessage(type:CLIENT_MESSAGE|name:SUMacControllerCommandScan|clientID:softwareupdated.<35131>|clientIDRaw:softwareupdated|clientProcessIdentifier:35131|version:(null)|error:(null)|message:[>>>
+	SUMacControllerClientID: softwareupdated
+	SUMacControllerCookie: E0EC4DAB-AAB4-4106-B486-E019D8F6F31D.<4>
+	SUMacControllerOptions: {
+		SUMacControllerOverrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+		SUMacControllerAccessControlContext: AccessControlContext(clientID:softwareupdated|priority:Background|event:(null)|eventType:None|clientDisconnectOccurred:NO|additionalContext:none)
+
+	}
+	SUMacControllerCommand: SUMacControllerCommandScan
+<<<]) for connection <NSXPCConnection: 0x7fa4fcf118d0> connection to service with pid 35131 named com.apple.sumaccontroller
+2026-01-20 09:55:33.353360-0600 0x230013   Default     0x0                  35131  30   softwareupdated: (SoftwareUpdateCoreConnect) [com.apple.SoftwareUpdateMacController:SERVER-com.apple.sumaccontroller] [SendServerMessage] Received message: SUCoreConnectMessage(type:CLIENT_MESSAGE|name:SUMacControllerCommandScan|clientID:softwareupdated.<35131>|clientIDRaw:softwareupdated|clientProcessIdentifier:35131|version:(null)|error:(null)|message:[>>>
+	SUMacControllerClientID: softwareupdated
+	SUMacControllerCookie: E0EC4DAB-AAB4-4106-B486-E019D8F6F31D.<4>
+	SUMacControllerOptions: {
+		SUMacControllerOverrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+		SUMacControllerAccessControlContext: AccessControlContext(clientID:softwareupdated|priority:Background|event:(null)|eventType:None|clientDisconnectOccurred:NO|additionalContext:none)
+
+	}
+	SUMacControllerCommand: SUMacControllerCommandScan
+<<<]) (proxyObject:YES, reply:YES)
+2026-01-20 09:55:33.353842-0600 0x230013   Default     0x0                  35131  30   softwareupdated: (SoftwareUpdateMacController) [com.apple.su:SERVER] [HandleMessage] SUMacControllerServer handleMessage delegate called message:SUCoreConnectMessage(type:CLIENT_MESSAGE|name:SUMacControllerCommandScan|clientID:softwareupdated.<35131>|clientIDRaw:softwareupdated|clientProcessIdentifier:35131|version:(null)|error:(null)|message:[>>>
+	SUMacControllerClientID: softwareupdated
+	SUMacControllerCookie: E0EC4DAB-AAB4-4106-B486-E019D8F6F31D.<4>
+	SUMacControllerOptions: {
+		SUMacControllerOverrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+		SUMacControllerAccessControlContext: AccessControlContext(clientID:softwareupdated|priority:Background|event:(null)|eventType:None|clientDisconnectOccurred:NO|additionalContext:none)
+
+	}
+	SUMacControllerCommand: SUMacControllerCommandScan
+<<<]) proxyObject:<_NSXPCDistantObject: 0x7fa4fda6f9f0> hasReply:YES
+2026-01-20 09:55:33.354220-0600 0x22fff7   Default     0x0                  35131  30   softwareupdated: (SoftwareUpdateMacController) [com.apple.SoftwareUpdateMacController:SU] [SUMacControllerClientRequest] Using client provided overrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+2026-01-20 09:55:34.040344-0600 0x2300af   Default     0x0                  35138  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 09:55:34.251532-0600 0x2300c8   Default     0x0                  35142  30   SoftwareUpdateNotificationManager: (OSUpdate) [com.apple.SoftwareUpdate:SoftwareUpdate] SUOSUAuthenticationManager: Disabling local authentication requirement
+2026-01-20 09:55:34.616107-0600 0x230014   Default     0x0                  35131  30   softwareupdated: (SoftwareUpdateCoreConnect) [com.apple.SoftwareUpdateMacController:CLIENT] [SendServerMessage](com.apple.sumaccontroller) Connected to server and calling sendMessage SUCoreConnectMessage(type:CLIENT_MESSAGE|name:SUMacControllerCommandScan|clientID:softwareupdated.<35131>|clientIDRaw:softwareupdated|clientProcessIdentifier:35131|version:(null)|error:(null)|message:[>>>
+	SUMacControllerClientID: softwareupdated
+	SUMacControllerCookie: E0EC4DAB-AAB4-4106-B486-E019D8F6F31D.<5>
+	SUMacControllerOptions: {
+		SUMacControllerOverrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+    autoUpdate = false;
+    buddy = false;
+    checkForUpdatesIsChecked = true;
+    commandLine = false;
+    downloadNewlyAvailableUpdatesInBGIsChecked = true;
+    installAppUpdatesIsChecked = true;
+    installMacOSUpdatesIsChecked = true;
+    installSystemDataFilesNSecurityUpdatesIsChecked = true;
+    installTonight = false;
+    mdm = false;
+    notification = true;
+    settings = false;
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+		SUMacControllerAccessControlContext: AccessControlContext(clientID:softwareupdated|priority:Background|event:(null)|eventType:None|clientDisconnectOccurred:NO|additionalContext:none)
+
+	}
+	SUMacControllerCommand: SUMacControllerCommandScan
+<<<]) for connection <NSXPCConnection: 0x7fa4fcf118d0> connection to service with pid 35131 named com.apple.sumaccontroller
+2026-01-20 09:55:34.617306-0600 0x230011   Default     0x0                  35131  30   softwareupdated: (SoftwareUpdateCoreConnect) [com.apple.SoftwareUpdateMacController:SERVER-com.apple.sumaccontroller] [SendServerMessage] Received message: SUCoreConnectMessage(type:CLIENT_MESSAGE|name:SUMacControllerCommandScan|clientID:softwareupdated.<35131>|clientIDRaw:softwareupdated|clientProcessIdentifier:35131|version:(null)|error:(null)|message:[>>>
+	SUMacControllerClientID: softwareupdated
+	SUMacControllerCookie: E0EC4DAB-AAB4-4106-B486-E019D8F6F31D.<5>
+	SUMacControllerOptions: {
+		SUMacControllerOverrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+    autoUpdate = false;
+    buddy = false;
+    checkForUpdatesIsChecked = true;
+    commandLine = false;
+    downloadNewlyAvailableUpdatesInBGIsChecked = true;
+    installAppUpdatesIsChecked = true;
+    installMacOSUpdatesIsChecked = true;
+    installSystemDataFilesNSecurityUpdatesIsChecked = true;
+    installTonight = false;
+    mdm = false;
+    notification = true;
+    settings = false;
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+		SUMacControllerAccessControlContext: AccessControlContext(clientID:softwareupdated|priority:Background|event:(null)|eventType:None|clientDisconnectOccurred:NO|additionalContext:none)
+
+	}
+	SUMacControllerCommand: SUMacControllerCommandScan
+<<<]) (proxyObject:YES, reply:YES)
+2026-01-20 09:55:34.617703-0600 0x230011   Default     0x0                  35131  30   softwareupdated: (SoftwareUpdateMacController) [com.apple.su:SERVER] [HandleMessage] SUMacControllerServer handleMessage delegate called message:SUCoreConnectMessage(type:CLIENT_MESSAGE|name:SUMacControllerCommandScan|clientID:softwareupdated.<35131>|clientIDRaw:softwareupdated|clientProcessIdentifier:35131|version:(null)|error:(null)|message:[>>>
+	SUMacControllerClientID: softwareupdated
+	SUMacControllerCookie: E0EC4DAB-AAB4-4106-B486-E019D8F6F31D.<5>
+	SUMacControllerOptions: {
+		SUMacControllerOverrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+    autoUpdate = false;
+    buddy = false;
+    checkForUpdatesIsChecked = true;
+    commandLine = false;
+    downloadNewlyAvailableUpdatesInBGIsChecked = true;
+    installAppUpdatesIsChecked = true;
+    installMacOSUpdatesIsChecked = true;
+    installSystemDataFilesNSecurityUpdatesIsChecked = true;
+    installTonight = false;
+    mdm = false;
+    notification = true;
+    settings = false;
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+		SUMacControllerAccessControlContext: AccessControlContext(clientID:softwareupdated|priority:Background|event:(null)|eventType:None|clientDisconnectOccurred:NO|additionalContext:none)
+
+	}
+	SUMacControllerCommand: SUMacControllerCommandScan
+<<<]) proxyObject:<_NSXPCDistantObject: 0x7fa4fd938ee0> hasReply:YES
+2026-01-20 09:55:34.618109-0600 0x230014   Default     0x0                  35131  30   softwareupdated: (SoftwareUpdateMacController) [com.apple.SoftwareUpdateMacController:SU] [SUMacControllerClientRequest] Using client provided overrides: [>>>
+                                background: YES
+                    requiresPowerPluggedIn: NO
+                     restrictToIncremental: NO
+                            restrictToFull: NO
+                          allowSameVersion: NO
+              allowSameSplatRestoreVersion: NO
+                       checkAvailableSpace: NO
+                                updateType: All
+                   softwareUpdateAssetType: com.apple.MobileAsset.MacSoftwareUpdate
+                sfrSoftwareUpdateAssetType: com.apple.MobileAsset.SFRSoftwareUpdate
+                            splatAssetType: com.apple.MobileAsset.MacSplatSoftwareUpdate
+                      updateBrainAssetType: com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain
+                    documentationAssetType: com.apple.MobileAsset.SoftwareUpdateDocumentation
+                    usesSFRSoftwareUpdates: NO
+                        usesRosettaUpdates: NO
+                     usesRecoveryOSUpdates: NO
+                     usesSplatComboUpdates: YES
+                        enablePreSUStaging: YES
+       enablePreSUStagingForOptionalAssets: YES
+          maxPreSUStagingOptionalAssetSize: (null)
+       requirePreparePackageRosettaUpdates: NO
+       attemptPreparePackageRosettaUpdates: NO
+                    rosettaVersionOverride: (null)
+                catalogDownloadTimeoutSecs: (null)
+    softwareUpdateAssetDownloadTimeoutSecs: (null)
+ sfrSoftwareUpdateAssetDownloadTimeoutSecs: (null)
+                       updateMetricContext: (null)
+                          targetVolumeUUID: (null)
+             personalizedManifestRootsPath: (null)
+                 localAuthenticationUserID: (null)
+                localAuthenticationContext: (null)
+                         mdmBootstrapToken: not present
+                      appleConnectSsoToken: not present
+                      appleConnectDAWToken: not present
+                   authenticationServiceID: (null)
+                       authenticationAppID: (null)
+                     bridgeOSAllowTestMode: YES
+                 bridgeOSStagedUpdatesOnly: NO
+        bridgeOSAllowAnyCatalogCertificate: NO
+         bridgeOSIgnoreMinimumVersionCheck: NO
+                        bridgeOSCatalogURL: (null)
+                   bridgeOSVersionOverride: (null)
+                 bridgeOSDownloadDirectory: (null)
+                  rosettaDownloadDirectory: (null)
+                     enableBridgeOSInstall: YES
+                   enableOSPersonalization: YES
+            performPreflightEncryptedCheck: (null)
+             performPreflightSnapshotCheck: (null)
+                             userInitiated: NO
+                         skipVolumeSealing: NO
+            cancelUpdateOnClientDisconnect: NO
+                          qualityOfService: SUMacControllerQOSUnspecified
+                disableRootVolumeSealCheck: NO
+                                supervised: NO
+                              requestedPMV: (null)
+                         MDMUseDelayPeriod: NO
+                           delayPeriodSecs: 0
+               liveAssetServerAudienceUUID: (null)
+                               deviceClass: Mac
+                  prerequisiteBuildVersion: 24G419
+                prerequisiteProductVersion: 15.7.3
+                prerequisiteRestoreVersion: 24.7.419.0.0,0
+                      targetRestoreVersion: (null)
+                  installedSFRBuildVersion: (null)
+                installedSFRProductVersion: (null)
+                installedSFRRestoreVersion: (null)
+                   installedSFRReleaseType: (null)
+                installedSplatBuildVersion: 24G419
+              installedSplatProductVersion: 15.7.3
+              installedSplatRestoreVersion: 24.7.419.0.0,0
+                 installedSplatReleaseType: (null)
+                                hwModelStr: J223AP
+                               productType: MacBookPro16,3
+                               releaseType: (null)
+               updateBrainLocationOverride: (null)
+     recoveryOSUpdateBrainLocationOverride: (null)
+         additionalUpdateMetricEventFields: {
+    autoUpdate = false;
+    buddy = false;
+    checkForUpdatesIsChecked = true;
+    commandLine = false;
+    downloadNewlyAvailableUpdatesInBGIsChecked = true;
+    installAppUpdatesIsChecked = true;
+    installMacOSUpdatesIsChecked = true;
+    installSystemDataFilesNSecurityUpdatesIsChecked = true;
+    installTonight = false;
+    mdm = false;
+    notification = true;
+    settings = false;
+}
+             additionalCatalogServerParams: (null)
+                additionalMSUUpdateOptions: (null)
+                       additionalOverrides: (null)
+<<<]
+2026-01-20 09:55:41.413742-0600 0x230005   Default     0x0                  35132  0    transparencyd: [com.apple.Transparency:default] device identity authentication unsupported; will use account auth
+2026-01-20 09:55:44.007351-0600 0x23037e   Default     0x0                  35180  7    itunescloudd: (iTunesCloud) [com.apple.amp.iTunesCloud:Default] <ICLibraryAuthServiceClientTokenProvider: 0x7fb10130a280> Loaded cached tokens: {
+    6056c1eb7078dccbf1680a42351c5ce90a81b08b = "<ICLibraryAuthServiceClientTokenStatus:0x7fb101208970 result=(null) lastError=Error Domain=ICError Code=-7402 \"Not allowing silent authentication because one was recently attempted already\" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already} lastUpdate='1993-11-25 18:57:36 +0000' autoRefreshEnabled=NO>";
+}
+2026-01-20 09:55:44.007839-0600 0x23037e   Default     0x0                  35180  7    itunescloudd: (iTunesCloud) [com.apple.amp.iTunesCloud:Default_Oversize] <ICLibraryAuthServiceClientTokenProvider: 0x7fb10130a280> Reconciling cache entries {
+    6056c1eb7078dccbf1680a42351c5ce90a81b08b = "<ICLibraryAuthServiceClientTokenStatus:0x7fb101208970 result=(null) lastError=Error Domain=ICError Code=-7402 \"Not allowing silent authentication because one was recently attempted already\" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already} lastUpdate='1993-11-25 18:57:36 +0000' autoRefreshEnabled=NO>";
+} with current account list (
+    "<073eed0eef60220ff7d77417b162bd7228fd16d3 (842F29B8-4B5E-4F78-BA16-B62DD230A9D5) [DSID=6056c1eb7078dccbf1680a42351c5ce90a81b08b, isActive=1]>"
+)
+2026-01-20 09:55:44.013603-0600 0x23037e   Default     0x0                  35180  7    itunescloudd: (iTunesCloud) [com.apple.amp.iTunesCloud:Default] <ICLibraryAuthServiceClientTokenProvider: 0x7fb10130a280> Skipping background refresh of DSID 277530754. last error: Error Domain=ICError Code=-7402 "Not allowing silent authentication because one was recently attempted already" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already}}
+2026-01-20 09:55:44.309376-0600 0x230382   Default     0x0                  35180  7    itunescloudd: [com.apple.amp.itunescloudd:UserState] <ICDMediaUserStateCenterServer: 0x7fb101409790> Fetched token status dictionary: {
+    277530754 = "<ICLibraryAuthServiceClientTokenStatus:0x7fb101208970 result=(null) lastError=Error Domain=ICError Code=-7402 \"Not allowing silent authentication because one was recently attempted already\" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already} lastUpdate='1993-11-25 18:57:36 +0000' autoRefreshEnabled=NO>";
+}
+2026-01-20 09:55:47.604035-0600 0x230415   Default     0x5f5de8             35200  30   SoftwareUpdateSubscriber: (OSUpdate) [com.apple.SoftwareUpdate:SoftwareUpdate] SUOSUAuthenticationManager: Disabling local authentication requirement
+2026-01-20 09:56:32.893165-0600 0x230546   Error       0x5f71b4             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 09:56:36.679202-0600 0x2308a6   Default     0x0                  35227  0    com.apple.BKAgentService: (CoreMedia) [com.apple.coremedia:] <<<< FigCustomURLHandling >>>> FigCustomURLHandlerCreate: newHandler: AVAssetResourceLoader-authentication.0x7fd58ae16c90 options: {
+    "CURLHOption_OKToLogURLs" = 0;
+}
+2026-01-20 09:59:33.842517-0600 0x2313e6   Default     0x0                  35262  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:03:33.844548-0600 0x23240b   Default     0x0                  35457  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:04:02.856030-0600 0x23218e   Error       0x0                  35447  2    milod: (LaunchServices) [com.apple.launchservices:db] Error -10822 registering extension points inside framework file:///System/iOSSupport/System/Library/ExtensionKit/ExtensionPoints/com.apple.authentication-services-credential-provider-ui.appexpt
+2026-01-20 10:04:02.856437-0600 0x23218e   Error       0x0                  35447  2    milod: (LaunchServices) [com.apple.launchservices:db] Error -10822 registering extension points inside framework file:///System/Library/ExtensionKit/ExtensionPoints/com.apple.authentication-services-credential-provider-ui.appexpt
+2026-01-20 10:07:33.559174-0600 0x233248   Default     0x0                  35496  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:11:33.474561-0600 0x234008   Default     0x0                  35544  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:15:33.791672-0600 0x234fc9   Default     0x0                  35574  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:19:34.102093-0600 0x2360ab   Default     0x0                  35612  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:23:34.828517-0600 0x2370a6   Default     0x0                  35666  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:27:35.287328-0600 0x238048   Default     0x0                  35691  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:31:36.304942-0600 0x238dc1   Default     0x0                  35742  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:32:09.451634-0600 0x238cdf   Default     0x6010a9             646    0    identityservicesd: (IMFoundation) [com.apple.IDS:URLLoading] Received authentication challenge:
+  ---->Protection Space: <Realm: (null), Host: <private>, Protocol: https, Method: NSURLAuthenticationMethodServerTrust>
+  ---->Proposed Credential: (null)
+  Performing default handling.
+2026-01-20 10:32:09.483741-0600 0x238cdf   Default     0x6010a9             646    0    identityservicesd: (IMFoundation) [com.apple.IDS:URLLoading] Received authentication challenge:
+  ---->Protection Space: <Realm: (null), Host: <private>, Protocol: https, Method: NSURLAuthenticationMethodServerTrust>
+  ---->Proposed Credential: (null)
+  Performing default handling.
+2026-01-20 10:35:37.172799-0600 0x239b5d   Default     0x0                  35776  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:39:36.762580-0600 0x23aa18   Default     0x0                  35818  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:41:12.979114-0600 0x23b1f4   Default     0x0                  35870  7    itunescloudd: (iTunesCloud) [com.apple.amp.iTunesCloud:Default] <ICLibraryAuthServiceClientTokenProvider: 0x7fddc7e048d0> Loaded cached tokens: {
+    6056c1eb7078dccbf1680a42351c5ce90a81b08b = "<ICLibraryAuthServiceClientTokenStatus:0x7fddc7843300 result=(null) lastError=Error Domain=ICError Code=-7402 \"Not allowing silent authentication because one was recently attempted already\" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already} lastUpdate='1993-11-25 18:57:36 +0000' autoRefreshEnabled=NO>";
+}
+2026-01-20 10:41:12.979380-0600 0x23b1f4   Default     0x0                  35870  7    itunescloudd: (iTunesCloud) [com.apple.amp.iTunesCloud:Default_Oversize] <ICLibraryAuthServiceClientTokenProvider: 0x7fddc7e048d0> Reconciling cache entries {
+    6056c1eb7078dccbf1680a42351c5ce90a81b08b = "<ICLibraryAuthServiceClientTokenStatus:0x7fddc7843300 result=(null) lastError=Error Domain=ICError Code=-7402 \"Not allowing silent authentication because one was recently attempted already\" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already} lastUpdate='1993-11-25 18:57:36 +0000' autoRefreshEnabled=NO>";
+} with current account list (
+    "<073eed0eef60220ff7d77417b162bd7228fd16d3 (842F29B8-4B5E-4F78-BA16-B62DD230A9D5) [DSID=6056c1eb7078dccbf1680a42351c5ce90a81b08b, isActive=1]>"
+)
+2026-01-20 10:41:12.979446-0600 0x23b1f4   Default     0x0                  35870  7    itunescloudd: (iTunesCloud) [com.apple.amp.iTunesCloud:Default] <ICLibraryAuthServiceClientTokenProvider: 0x7fddc7e048d0> Skipping background refresh of DSID 277530754. last error: Error Domain=ICError Code=-7402 "Not allowing silent authentication because one was recently attempted already" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already}}
+2026-01-20 10:41:12.995416-0600 0x23b1f3   Default     0x0                  35870  7    itunescloudd: [com.apple.amp.itunescloudd:UserState] <ICDMediaUserStateCenterServer: 0x7fddc7824410> Fetched token status dictionary: {
+    277530754 = "<ICLibraryAuthServiceClientTokenStatus:0x7fddc7843300 result=(null) lastError=Error Domain=ICError Code=-7402 \"Not allowing silent authentication because one was recently attempted already\" UserInfo={NSDebugDescription=Not allowing silent authentication because one was recently attempted already} lastUpdate='1993-11-25 18:57:36 +0000' autoRefreshEnabled=NO>";
+}
+2026-01-20 10:43:37.385710-0600 0x23bcb8   Default     0x0                  35898  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:47:38.041124-0600 0x23cd47   Default     0x0                  35951  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:51:38.022305-0600 0x23dc75   Default     0x0                  36007  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:55:08.772487-0600 0x23e832   Error       0x5f5cee             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 10:55:09.769728-0600 0x23e8d8   Error       0x60ebf6             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 10:55:18.194967-0600 0x23e8fd   Error       0x60ebfe             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 10:55:18.438292-0600 0x23e8f6   Error       0x60f2b6             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 10:55:24.997063-0600 0x23ec51   Default     0x60f428             36038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f8bd350eb50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 10:55:25.095536-0600 0x23ec4c   Default     0x60f42e             36038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f8bd350eb50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 10:55:25.183881-0600 0x23e832   Error       0x60f489             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 10:55:25.265509-0600 0x23e8d7   Error       0x60f488             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 10:55:25.354620-0600 0x23ec49   Default     0x60f4b6             36038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f8bd350eb50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 10:55:25.356070-0600 0x23ec51   Default     0x60f4b8             36038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f8bd350eb50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 10:55:25.395026-0600 0x23ec49   Default     0x60f4bd             36038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f8bd350eb50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 10:55:25.400367-0600 0x23ec49   Default     0x60f4bf             36038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f8bd350eb50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 10:55:37.791962-0600 0x23ed2e   Default     0x0                  36063  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 10:59:38.435500-0600 0x23f8ec   Default     0x0                  36118  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:01:20.797860-0600 0x23ec08   Activity    0x60f393             181    0    loginwindow: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-20 11:01:26.721071-0600 0x23fec1   Default     0x61d2df             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Successful SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A console domain
+2026-01-20 11:01:26.842061-0600 0x240086   Activity    0x61d2ea             36151  0    authorizationhost: (CFOpenDirectory) Validate if authentications are allowed for a given record
+2026-01-20 11:01:27.745027-0600 0x240092   Default     0x61d217             627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] canceling running authentication: <AuthenticationInProgress: 0x7feac1f081c0; pid:181, started: 1/20/26, 10:55:08 AM CST, uid: 501, AHP: 0, priority: Default(1)> mechanism: MechanismTouchId[43](run)
+2026-01-20 11:01:27.769865-0600 0x240092   Default     0x61d217             627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] canceling running authentication: <AuthenticationInProgress: 0x7feac1f081c0; pid:181, started: 1/20/26, 10:55:08 AM CST, uid: 501, AHP: 0, priority: Default(1)> mechanism: MechanismTouchId[43]
+2026-01-20 11:01:27.770311-0600 0x240092   Default     0x61d217             627    0    coreauthd: (ModuleBase) [com.apple.LocalAuthentication:AuthenticationManager] clearing authentication: <AuthenticationInProgress: 0x7feac1f081c0; pid:181, started: 1/20/26, 10:55:08 AM CST, uid: 501, AHP: 0, priority: Default(1)>
+2026-01-20 11:01:28.597617-0600 0x23fec1   Error       0x60f4c6             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 11:01:29.701008-0600 0x23fb45   Error       0x60f4ce             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 11:01:30.116309-0600 0x23ec57   Default     0x60f4da             36038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f8bd350eb50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 11:01:30.121548-0600 0x23ec57   Default     0x60f4dc             36038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f8bd350eb50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 11:01:30.205420-0600 0x23fb45   Error       0x61d4eb             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 11:01:30.373653-0600 0x2400cc   Default     0x61d522             36038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f8bd350eb50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 11:01:30.376738-0600 0x2400c1   Default     0x61d524             36038  0    AuthenticationServicesAgent: (PlugInKit) [com.apple.PlugInKit:discovery] [d <private>] <PKHost:0x7f8bd350eb50> Beginning discovery for flags: 0, point: com.apple.authentication-services-credential-provider-ui
+2026-01-20 11:03:38.920280-0600 0x24076e   Default     0x0                  36164  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:07:38.814083-0600 0x2414c8   Default     0x0                  36186  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:10:44.111108-0600 0x242385   Error       0x61d53c             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 11:11:39.421995-0600 0x2429c9   Default     0x0                  36264  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:15:39.615541-0600 0x243884   Default     0x0                  36294  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:19:39.643660-0600 0x244744   Default     0x0                  36322  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:23:40.069493-0600 0x2454c2   Default     0x0                  36344  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:27:40.035434-0600 0x246224   Default     0x0                  36356  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:28:29.817393-0600 0x246836   Default     0x0                  36439  30   softwareupdated: (OSUpdate) [com.apple.SoftwareUpdate:SoftwareUpdate] SUOSUAuthenticationManager: Disabling local authentication requirement
+2026-01-20 11:31:40.135760-0600 0x2477ab   Default     0x0                  36720  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:32:22.791028-0600 0x247a62   Error       0x627220             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Failed SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain: invalid credentials
+2026-01-20 11:32:27.601264-0600 0x247a62   Default     0x627250             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Successful SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain
+2026-01-20 11:35:40.520852-0600 0x248810   Default     0x0                  36770  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:39:40.958222-0600 0x249554   Default     0x0                  36812  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:43:40.969373-0600 0x24a2d6   Default     0x0                  36824  0    screensharingd: close the connection from viewer authentication thread
+2026-01-20 11:45:33.851126-0600 0x24a6a1   Default     0x62b540             144    0    opendirectoryd: (PlistFile) [com.apple.opendirectoryd:auth] Successful SecureToken authentication for 500EF3F2-A513-4033-8F58-7EDC81033E3A other domain

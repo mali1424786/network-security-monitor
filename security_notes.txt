@@ -1,0 +1,40 @@
+MY NOTES
+
+nano security_notes.txt
+```
+
+Delete the "MY NOTES" line (Ctrl+K), then paste this:
+```
+================================================================================
+MY SECURITY+ LEARNING NOTES
+================================================================================
+Last Updated: January 20, 2026
+
+TOOLS I'VE BUILT TODAY:
+
+1. Network Security Monitor
+   - Detects port scans and traffic anomalies
+   - Security+ topics: Domain 2, 3, 4
+
+2. Password Security Analyzer  
+   - Checks strength, generates secure passwords, shows hashes
+   - Security+ topics: Domain 1, 2, 5
+
+3. Security Log Analyzer
+   - Detects brute force attacks from logs
+   - Security+ topics: Domain 2, 4
+
+KEY CONCEPTS I LEARNED:
+- Hashing = one-way (can't reverse)
+- Port scanning = probing many ports
+- Brute force = trying many passwords
+- Logs = evidence of attacks
+
+TONIGHT'S HOMEWORK:
+[ ] Watch Pluralsight Domain 1 (Cryptography)
+[ ] Add notes here after watching
+
+QUESTIONS FOR LATER:
+- What's the CIA triad?
+- Difference between IDS and IPS?
+================================================================================

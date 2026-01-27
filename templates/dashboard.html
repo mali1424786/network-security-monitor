@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Network Security Monitor</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial; background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; padding: 20px; }
+        .container { max-width: 1400px; margin: 0 auto; }
+        h1 { text-align: center; font-size: 2.5em; }
+        .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 30px 0; }
+        .card { background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; text-align: center; }
+        .number { font-size: 3em; color: #4CAF50; font-weight: bold; }
+        .label { color: #a8d8ff; margin-top: 10px; }
+        .section { background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin: 20px 0; }
+        .section-title { color: #ffd700; font-size: 1.5em; margin-bottom: 15px; }
+        .list-item { background: rgba(0,0,0,0.2); padding: 10px; margin: 5px 0; border-radius: 5px; display: flex; justify-content: space-between; }
+        .rank { color: #ffd700; font-weight: bold; }
+        .count { color: #4CAF50; font-weight: bold; }
+        .charts-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; margin: 20px 0; }
+        .chart-container { background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px; }
+        canvas { max-height: 300px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ Network Security Monitor</h1>
+        
+        <div class="stats">
+            <div class="card"><div class="number">{{ stats.total_port_scans }}</div><div class="label">Port Scans</div></div>
+            <div class="card"><div class="number">{{ stats.total_anomalies }}</div><div class="label">Anomalies</div></div>
+            <div class="card"><div class="number">{{ stats.traffic_spikes }}</div><div class="label">Spikes</div></div>
+            <div class="card"><div class="number">{{ stats.unusual_ports }}</div><div class="label">Unusual Ports</div></div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-container">
+                <h3 style="color: #ffd700; margin-bottom: 15px;">📈 Alerts Timeline (Last 24 Hours)</h3>
+                <canvas id="timelineChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3 style="color: #ffd700; margin-bottom: 15px;">🥧 Attack Types</h3>
+                <canvas id="pieChart"></canvas>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">🎯 Top Attacking IPs</div>
+            {% for ip, count in stats.top_ips %}
+            <div class="list-item">
+                <span><span class="rank">#{{ loop.index }}</span> {{ ip }}</span>
+                <span class="count">{{ count }} alerts</span>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="section">
+            <div class="section-title">🔌 Most Targeted Ports</div>
+            {% for port, count in stats.top_ports %}
+            <div class="list-item">
+                <span><span class="rank">#{{ loop.index }}</span> Port {{ port }}</span>
+                <span class="count">{{ count }} attempts</span>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="section">
+            <div class="section-title">⚠️ Recent Anomalies</div>
+            {% for anomaly in stats.recent_anomalies[::-1][:5] %}
+            <div style="background: rgba(0,0,0,0.3); padding: 15px; margin: 10px 0; border-radius: 8px; border-left: 4px solid #ff6b6b;">
+                {% if anomaly.info.type == 'unusual_port' %}
+                Port {{ anomaly.info.port }} → {{ anomaly.info.ip }}
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        // Timeline Chart
+        const timelineCtx = document.getElementById('timelineChart').getContext('2d');
+        new Chart(timelineCtx, {
+            type: 'line',
+            data: {
+                labels: {{ stats.timeline_labels | tojson }},
+                datasets: [{
+                    label: 'Alerts per Hour',
+                    data: {{ stats.timeline_data | tojson }},
+                    borderColor: '#ff6b6b',
+                    backgroundColor: 'rgba(255, 107, 107, 0.1)',
+                    tension: 0.4,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { labels: { color: 'white' } } },
+                scales: {
+                    y: { ticks: { color: 'white' }, grid: { color: 'rgba(255,255,255,0.1)' } },
+                    x: { ticks: { color: 'white' }, grid: { color: 'rgba(255,255,255,0.1)' } }
+                }
+            }
+        });
+
+        // Pie Chart
+        const pieCtx = document.getElementById('pieChart').getContext('2d');
+        new Chart(pieCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Traffic Spikes', 'Unusual Ports', 'Unusual Protocols'],
+                datasets: [{
+                    data: [{{ stats.traffic_spikes }}, {{ stats.unusual_ports }}, {{ stats.unusual_protocols }}],
+                    backgroundColor: ['#ff6b6b', '#4CAF50', '#ffd700']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { labels: { color: 'white' } } }
+            }
+        });
+
+        setTimeout(() => location.reload(), 10000);
+    </script>
+</body>
+</html>
